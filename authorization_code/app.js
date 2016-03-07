@@ -13,9 +13,9 @@ var querystring = require('querystring');
 var cookieParser = require('cookie-parser');
 var APIkeys = require('./keys.js');
 
-var client_id = 'APIkeys.client_id'; // Your client id
-var client_secret = 'APIkeys.client_secret'; // Your client secret
-var redirect_uri = 'APIkeys.redirect_uri'; // Your redirect uri
+var client_id = APIkeys.client_id; // Your client id
+var client_secret = APIkeys.client_secret; // Your client secret
+var redirect_uri = APIkeys.redirect_uri; // Your redirect uri
 
 /**
  * Generates a random string containing numbers and letters
